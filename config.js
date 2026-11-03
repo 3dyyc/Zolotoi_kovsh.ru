@@ -1,6 +1,6 @@
-// Fill these after creating the dedicated Supabase project for Golden Kovsh.
-// Use only Project URL and publishable (anon) key. NEVER put service_role/secret keys here.
+// Supabase public project configuration.
+// Only the publishable key belongs here. Never expose service_role/secret keys.
 window.KOVSH_CONFIG = {
-  supabaseUrl: "",
-  supabaseAnonKey: ""
+  supabaseUrl: "https://otlmgdieatcfsvwedywx.supabase.co",
+  supabaseAnonKey: "sb_publishable_IVhKqMoDReE8xNsuc0xA5w_AMDw50-Y"
 };
