@@ -27,6 +27,7 @@
     @media(max-width:700px){.container{width:min(100% - 34px,560px)}.nav{height:72px}.brand{min-width:0}.brand-mark{width:38px;height:38px}.brand-name{font-size:14px}.menu-toggle{display:block}.nav-cta{display:none}.nav-links{display:none;position:absolute;top:72px;left:0;right:0;background:#171613;padding:22px 25px 28px;flex-direction:column;align-items:flex-start;gap:20px}.nav-links.open{display:flex}.nav-links a{font-size:12px}.hero{min-height:720px;height:92svh}.hero:before{background:linear-gradient(90deg,#0c0b09d9,#0c0b0980 75%),url("https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?auto=format&fit=crop&w=1200&q=85") center/cover}.hero-content{padding-top:60px}.hero h1{font-size:62px}.hero-copy{font-size:13px}.hero-note{display:none}.intro,.services,.rooms,.gallery,.contacts{padding:78px 0}.intro-grid,.feature-grid,.contact-grid{grid-template-columns:1fr;gap:38px}.intro h2,.section-heading h2{font-size:42px}.intro-image{height:350px;margin:0 12px 15px 0}.image-tag{left:-10px}.section-heading{margin-bottom:35px}.service-grid{grid-template-columns:1fr}.service-photo{height:240px}.service-body p{min-height:0}.feature{padding:78px 0}.feature-photo{height:350px;margin-right:12px}.feature-copy h2{font-size:44px}.feature-list{gap:14px}.room-panel{grid-template-columns:1fr}.room-panel img{height:290px}.room-info{padding:30px 25px}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:200px 150px 150px}.gallery-grid a:first-child{grid-column:span 2;grid-row:auto}.booking{padding:65px 0}.booking-box{grid-template-columns:1fr;padding:30px 22px;gap:20px}.booking-box h2{font-size:38px}.booking-form{grid-template-columns:1fr}.field.full{grid-column:auto}.booking-form .btn{grid-column:auto}.contact-details{gap:20px}.map-card{min-height:280px}.footer-row{flex-direction:column;align-items:flex-start}.footer-note{text-align:left}.footer-brand{margin-bottom:4px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*{transition:none!important}}
   </style>
+  <link rel="stylesheet" href="assets/v2.css?v=2">
 </head>
 <body>
   <header class="topbar">
@@ -142,5 +143,6 @@
     const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});
     document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
   </script>
+  <script src="assets/v2.js?v=2"></script>
 </body>
 </html>
