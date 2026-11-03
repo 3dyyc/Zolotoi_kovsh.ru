@@ -6,7 +6,7 @@
 
   async function loadGallery() {
     if (!db) return;
-    const result = await db.from("content_items").select("*").eq("category", "gallery").eq("is_active", true).order("sort_order").order("created_at", {ascending:false});
+    const result = await db.from("content_items").select("*").eq("is_active", true).order("sort_order").order("created_at", {ascending:false});
     if (result.error || !result.data || !result.data.length) return;
     const grid = document.getElementById("galleryGrid");
     if (!grid) return;
