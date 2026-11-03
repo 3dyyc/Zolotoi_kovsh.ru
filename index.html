@@ -91,7 +91,7 @@
 
     <section class="gallery" id="gallery">
       <div class="container"><div class="section-heading reveal"><div class="eyebrow">Атмосфера комплекса</div><h2>Посмотрите <em>поближе</em></h2><p>Несколько штрихов к вашему будущему отдыху.</p></div>
-        <div class="gallery-grid reveal">
+        <div class="gallery-grid reveal" id="galleryGrid">
           <a href="https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?auto=format&fit=crop&w=1600&q=90" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?auto=format&fit=crop&w=900&q=80" alt="Бассейн"><span>Водная зона</span></a>
           <a href="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=90" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=700&q=80" alt="Гостиница"><span>Гостиница</span></a>
           <a href="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=90" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80" alt="Спа-зона"><span>Зона отдыха</span></a>
@@ -129,7 +129,7 @@
       </div>
     </section>
   </main>
-  <footer><div class="container footer-row"><div><div class="footer-brand">ЗОЛОТОЙ КОВШ</div><div>Гостиничный комплекс · Якутск</div></div><div class="footer-note">Демонстрационная версия сайта. Фотографии используются для визуальной концепции и должны быть заменены на реальные фотографии комплекса перед публикацией.</div><div>© <span id="year"></span> Золотой ковш</div></div></footer>
+  <footer><div class="container footer-row"><div><div class="footer-brand">ЗОЛОТОЙ КОВШ</div><div>Гостиничный комплекс · Якутск</div></div><div class="footer-note">Фотографии и сведения обновляются администрацией комплекса. <a href="admin.html" style="color:#e5c58c">Вход для администратора</a></div><div>© <span id="year"></span> Золотой ковш</div></div></footer>
   <script>
     const toggle=document.querySelector('.menu-toggle'), nav=document.querySelector('.nav-links');
     toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'×':'☰'});
