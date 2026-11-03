@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11100e">
+  <meta name="description" content="Гостиничный комплекс «Золотой ковш» в Якутске. Гостиница, сауны, бассейны и отдых для семьи и друзей.">
+  <title>Золотой ковш — гостиница и отдых в Якутске</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#171613;--muted:#77736b;--gold:#bd9654;--gold2:#e5c58c;--cream:#f6f3ed;--paper:#fffefa;--line:#e9e3d8;--dark:#11100e;--serif:"Playfair Display",Georgia,serif;--sans:"DM Sans",Arial,sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:var(--sans);color:var(--ink);background:var(--paper)}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.container{width:min(1160px,calc(100% - 48px));margin:auto}
+    .topbar{position:absolute;z-index:5;top:0;left:0;width:100%;color:#fff;border-bottom:1px solid #ffffff26}.nav{height:88px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{display:flex;align-items:center;gap:12px;min-width:210px}.brand-mark{width:43px;height:43px;border:1px solid var(--gold2);border-radius:50%;display:grid;place-items:center;color:var(--gold2);font:600 22px var(--serif)}.brand-name{font:600 17px var(--serif);letter-spacing:.12em}.brand-sub{display:block;font:10px var(--sans);letter-spacing:.22em;color:#d5c7ae;margin-top:3px}.nav-links{display:flex;align-items:center;gap:28px;font-size:12px;letter-spacing:.06em;color:#e6e1d7}.nav-links a{transition:color .2s}.nav-links a:hover{color:var(--gold2)}.nav-cta{border:1px solid #c8a66c;padding:13px 18px;color:#f3d9a8;font-size:11px;letter-spacing:.1em;text-transform:uppercase}.menu-toggle{display:none;background:none;border:0;color:white;font-size:25px}
+    .hero{min-height:760px;height:min(900px,100svh);position:relative;display:flex;align-items:center;color:#fff;background:#191713;overflow:hidden}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,11,9,.84) 0%,rgba(12,11,9,.55) 46%,rgba(12,11,9,.15) 100%),linear-gradient(0deg,rgba(12,11,9,.48),transparent 45%),url("https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?auto=format&fit=crop&w=2200&q=88") center/cover}.hero-content{position:relative;z-index:1;padding-top:85px;max-width:700px}.eyebrow{display:flex;align-items:center;gap:13px;text-transform:uppercase;letter-spacing:.25em;font-size:10px;color:var(--gold2);font-weight:600}.eyebrow:before{content:"";width:38px;height:1px;background:var(--gold)}h1,h2,h3,p{margin-top:0}.hero h1{font:500 clamp(54px,8vw,104px)/.99 var(--serif);letter-spacing:-.04em;margin:28px 0 22px}.hero h1 span{display:block;color:var(--gold2);font-style:italic}.hero-copy{max-width:470px;color:#e0dbd1;font-size:15px;line-height:1.85}.hero-actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:35px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 25px;border:1px solid transparent;cursor:pointer;transition:.25s;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}.btn-gold{background:var(--gold);color:#17130d}.btn-gold:hover{background:var(--gold2);transform:translateY(-2px)}.btn-outline{border-color:#ffffff80;color:white}.btn-outline:hover{border-color:var(--gold2);color:var(--gold2)}.hero-note{position:absolute;bottom:36px;right:5%;font-size:10px;letter-spacing:.2em;color:#d4cabb;text-transform:uppercase;writing-mode:vertical-rl}
+    .intro{padding:115px 0 105px;background:var(--cream)}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:center}.intro h2,.section-heading h2{font:500 clamp(38px,5vw,58px)/1.12 var(--serif);letter-spacing:-.025em}.intro h2 em,.section-heading h2 em{color:var(--gold);font-style:italic}.intro p{color:var(--muted);line-height:1.9;font-size:14px}.intro-quote{border-left:1px solid var(--gold);padding-left:22px;margin-top:28px;color:#625b50;font:italic 18px/1.55 var(--serif)}.intro-image{height:470px;position:relative}.intro-image img{width:100%;height:100%;object-fit:cover}.image-tag{position:absolute;bottom:-22px;left:-22px;background:var(--dark);color:white;padding:23px 28px}.image-tag strong{display:block;font:28px var(--serif);color:var(--gold2)}.image-tag span{font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#c9c1b3}
+    .services{padding:112px 0 120px}.section-heading{text-align:center;max-width:650px;margin:0 auto 55px}.section-heading .eyebrow{justify-content:center}.section-heading h2{margin:20px 0 14px}.section-heading p{font-size:14px;color:var(--muted);line-height:1.8}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.service-card{background:var(--cream);transition:transform .3s,box-shadow .3s}.service-card:hover{transform:translateY(-7px);box-shadow:0 20px 45px #1d160d12}.service-photo{height:255px;overflow:hidden;position:relative}.service-photo img{width:100%;height:100%;object-fit:cover;transition:transform .7s}.service-card:hover img{transform:scale(1.06)}.service-number{position:absolute;top:17px;left:17px;background:#171613d9;color:var(--gold2);font:16px var(--serif);padding:9px 12px}.service-body{padding:27px 27px 30px}.service-body h3{font:26px var(--serif);margin-bottom:10px}.service-body p{color:var(--muted);font-size:13px;line-height:1.75;min-height:68px}.service-meta{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding-top:18px;margin-top:19px}.service-meta span{font-size:11px;color:var(--muted)}.text-link{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#8e6b34;font-weight:700}.text-link:after{content:" →";font-size:15px}
+    .feature{background:var(--dark);color:white;padding:110px 0}.feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}.feature-photo{height:500px;position:relative}.feature-photo img{width:100%;height:100%;object-fit:cover}.feature-photo:after{content:"";position:absolute;inset:16px -16px -16px 16px;border:1px solid #bd965466;z-index:0;pointer-events:none}.feature-photo img{position:relative;z-index:1}.feature-copy h2{font:500 clamp(40px,5vw,60px)/1.1 var(--serif);margin:22px 0}.feature-copy p{color:#bcb6ab;font-size:14px;line-height:1.9}.feature-list{list-style:none;padding:0;margin:30px 0 35px;display:grid;grid-template-columns:1fr 1fr;gap:16px}.feature-list li{font-size:12px;color:#e2dbcf;display:flex;gap:10px;align-items:center}.feature-list li:before{content:"✦";color:var(--gold2)}
+    .rooms{padding:115px 0;background:var(--cream)}.room-panel{display:grid;grid-template-columns:1fr 1fr;background:white;margin-top:42px}.room-panel img{width:100%;height:440px;object-fit:cover}.room-info{padding:55px;align-self:center}.room-info h3{font:36px var(--serif);margin:18px 0}.room-info p{color:var(--muted);font-size:14px;line-height:1.9}.room-points{display:flex;flex-wrap:wrap;gap:9px;margin:25px 0}.room-points span{padding:9px 12px;background:var(--cream);font-size:10px;color:#686156}
+    .gallery{padding:110px 0}.gallery-grid{display:grid;grid-template-columns:1.2fr .8fr .8fr;grid-template-rows:220px 220px;gap:13px;margin-top:45px}.gallery-grid a{overflow:hidden;position:relative;background:#ddd}.gallery-grid a:first-child{grid-row:span 2}.gallery-grid img{width:100%;height:100%;object-fit:cover;transition:transform .6s}.gallery-grid a:hover img{transform:scale(1.06)}.gallery-grid a:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#0007,transparent 50%)}.gallery-grid span{position:absolute;z-index:1;bottom:17px;left:19px;color:white;font:18px var(--serif)}
+    .booking{background:#eee8dc;padding:100px 0}.booking-box{background:var(--dark);color:white;padding:60px;display:grid;grid-template-columns:.85fr 1.15fr;gap:55px}.booking-box h2{font:42px/1.1 var(--serif);margin:20px 0}.booking-box p{font-size:13px;color:#bdb5a8;line-height:1.8}.booking-form{display:grid;grid-template-columns:1fr 1fr;gap:13px}.field{display:flex;flex-direction:column;gap:8px}.field.full{grid-column:1/-1}.field label{font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:#cfc3ae}.field input,.field select,.field textarea{background:#211f1a;border:1px solid #4a4439;color:white;padding:14px 13px;outline:none;min-width:0}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--gold)}.booking-form .btn{grid-column:1/-1;margin-top:5px}.fineprint{font-size:10px!important;color:#928a7d!important;margin:8px 0 0}
+    .contacts{padding:105px 0}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.contact-details{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin:32px 0}.contact-item small{display:block;color:var(--gold);font-size:9px;letter-spacing:.17em;text-transform:uppercase;margin-bottom:9px}.contact-item strong,.contact-item a{font-size:14px;font-weight:500}.map-card{min-height:350px;background:linear-gradient(0deg,#171613b8,#17161355),url("https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1000&q=80") center/cover;display:flex;align-items:center;justify-content:center;text-align:center;color:white;padding:25px}.map-pin{width:52px;height:52px;border:1px solid var(--gold2);border-radius:50%;display:grid;place-items:center;margin:0 auto 18px;color:var(--gold2);font-size:22px}.map-card h3{font:30px var(--serif);margin-bottom:8px}.map-card p{font-size:12px;color:#e3ddd2}
+    footer{background:#11100e;color:#b9b1a3;padding:30px 0}.footer-row{display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:10px;letter-spacing:.08em}.footer-brand{font:17px var(--serif);letter-spacing:.14em;color:var(--gold2)}.footer-note{max-width:390px;text-align:right;line-height:1.6}
+    .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}.reveal.visible{opacity:1;transform:none}
+    @media(max-width:900px){.nav-links{gap:15px}.nav-links a{font-size:10px}.intro-grid,.feature-grid{gap:45px}.service-grid{gap:13px}.service-body{padding:22px 18px}.booking-box{padding:40px;gap:35px}.room-info{padding:35px}}
+    @media(max-width:700px){.container{width:min(100% - 34px,560px)}.nav{height:72px}.brand{min-width:0}.brand-mark{width:38px;height:38px}.brand-name{font-size:14px}.menu-toggle{display:block}.nav-cta{display:none}.nav-links{display:none;position:absolute;top:72px;left:0;right:0;background:#171613;padding:22px 25px 28px;flex-direction:column;align-items:flex-start;gap:20px}.nav-links.open{display:flex}.nav-links a{font-size:12px}.hero{min-height:720px;height:92svh}.hero:before{background:linear-gradient(90deg,#0c0b09d9,#0c0b0980 75%),url("https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?auto=format&fit=crop&w=1200&q=85") center/cover}.hero-content{padding-top:60px}.hero h1{font-size:62px}.hero-copy{font-size:13px}.hero-note{display:none}.intro,.services,.rooms,.gallery,.contacts{padding:78px 0}.intro-grid,.feature-grid,.contact-grid{grid-template-columns:1fr;gap:38px}.intro h2,.section-heading h2{font-size:42px}.intro-image{height:350px;margin:0 12px 15px 0}.image-tag{left:-10px}.section-heading{margin-bottom:35px}.service-grid{grid-template-columns:1fr}.service-photo{height:240px}.service-body p{min-height:0}.feature{padding:78px 0}.feature-photo{height:350px;margin-right:12px}.feature-copy h2{font-size:44px}.feature-list{gap:14px}.room-panel{grid-template-columns:1fr}.room-panel img{height:290px}.room-info{padding:30px 25px}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:200px 150px 150px}.gallery-grid a:first-child{grid-column:span 2;grid-row:auto}.booking{padding:65px 0}.booking-box{grid-template-columns:1fr;padding:30px 22px;gap:20px}.booking-box h2{font-size:38px}.booking-form{grid-template-columns:1fr}.field.full{grid-column:auto}.booking-form .btn{grid-column:auto}.contact-details{gap:20px}.map-card{min-height:280px}.footer-row{flex-direction:column;align-items:flex-start}.footer-note{text-align:left}.footer-brand{margin-bottom:4px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Золотой ковш — главная"><span class="brand-mark">ЗК</span><span><span class="brand-name">ЗОЛОТОЙ КОВШ</span><span class="brand-sub">ГОСТИНИЧНЫЙ КОМПЛЕКС</span></span></a>
+      <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Главная навигация">
+        <a href="#about">О комплексе</a><a href="#services">Сауны</a><a href="#hotel">Гостиница</a><a href="#gallery">Галерея</a><a href="#contacts">Контакты</a>
+      </nav>
+      <a class="nav-cta" href="#booking">Забронировать</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="eyebrow">Якутск · место для отдыха</div>
+        <h1>Время для себя.<span>Время для близких.</span></h1>
+        <p class="hero-copy">Гостиница и центр отдыха «Золотой ковш». Остановитесь в уютном номере, соберите близких в сауне и подарите себе день, который захочется повторить.</p>
+        <div class="hero-actions"><a class="btn btn-gold" href="#services">Выбрать сауну</a><a class="btn btn-outline" href="#hotel">Гостиница</a></div>
+      </div>
+      <div class="hero-note">ЗОЛОТОЙ КОВШ · ЯКУТСК</div>
+    </section>
+
+    <section class="intro" id="about">
+      <div class="container intro-grid">
+        <div class="reveal">
+          <div class="eyebrow">Больше, чем просто гостиница</div>
+          <h2>Ваше место<br>для <em>перезагрузки</em></h2>
+          <p>Иногда лучший план — ненадолго сменить привычную обстановку. В «Золотом ковше» можно остановиться в гостинице, провести время в сауне с бассейном или устроить встречу с друзьями.</p>
+          <p>Выберите формат отдыха, который подходит именно сегодня: спокойный вечер, семейный выходной или небольшое путешествие.</p>
+          <div class="intro-quote">«Создаём пространство, в котором отдых становится особенным».</div>
+        </div>
+        <div class="intro-image reveal"><img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1100&q=85" alt="Современная гостиница и зона отдыха"><div class="image-tag"><strong>Ваш отдых</strong><span>начинается здесь</span></div></div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-heading reveal"><div class="eyebrow">Выберите свой формат</div><h2>Время <em>расслабиться</em></h2><p>Пространство для тёплых встреч, отдыха с семьёй и вечеров в хорошей компании.</p></div>
+        <div class="service-grid">
+          <article class="service-card reveal"><div class="service-photo"><img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85" alt="Просторная сауна с бассейном"><span class="service-number">01</span></div><div class="service-body"><h3>Большая сауна</h3><p>Просторный формат отдыха с бассейном, гидромассажем и развлечениями для компании.</p><div class="service-meta"><span>Для большой компании</span><a class="text-link" href="#booking" data-service="Большая сауна">Забронировать</a></div></div></article>
+          <article class="service-card reveal"><div class="service-photo"><img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=900&q=85" alt="Бассейн и зона отдыха"><span class="service-number">02</span></div><div class="service-body"><h3>Бора-Бора</h3><p>Отдельное пространство для отдыха с близкими, водных процедур и приятного общения.</p><div class="service-meta"><span>Для семьи и друзей</span><a class="text-link" href="#booking" data-service="Сауна Бора-Бора">Забронировать</a></div></div></article>
+          <article class="service-card reveal"><div class="service-photo"><img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85" alt="Уютная небольшая сауна"><span class="service-number">03</span></div><div class="service-body"><h3>Малая сауна</h3><p>Камерная атмосфера для спокойного отдыха небольшой компанией.</p><div class="service-meta"><span>Уютный формат</span><a class="text-link" href="#booking" data-service="Малая сауна">Забронировать</a></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="container feature-grid">
+        <div class="feature-photo reveal"><img src="https://images.unsplash.com/photo-1572331165267-854da2b10ccc?auto=format&fit=crop&w=1100&q=85" alt="Бассейн в зоне отдыха"></div>
+        <div class="feature-copy reveal"><div class="eyebrow">Отдых в своём ритме</div><h2>Пусть заботы<br>подождут</h2><p>Соберите друзей, устройте семейный выходной или просто выделите время для себя. В комплексе предусмотрены разные форматы отдыха — от гостиничного размещения до посещения саун.</p><ul class="feature-list"><li>Бассейны</li><li>Караоке</li><li>Бильярд</li><li>Зоны отдыха</li><li>Гостиничные номера</li><li>Дополнительные услуги</li></ul><a class="btn btn-gold" href="#booking">Узнать о бронировании</a></div>
+      </div>
+    </section>
+
+    <section class="rooms" id="hotel">
+      <div class="container">
+        <div class="section-heading reveal"><div class="eyebrow">Остановитесь с комфортом</div><h2>Гостиница <em>«Золотой ковш»</em></h2><p>После насыщенного дня приятно вернуться туда, где можно спокойно отдохнуть.</p></div>
+        <div class="room-panel reveal"><img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=85" alt="Уютный номер гостиницы"><div class="room-info"><div class="eyebrow">Проживание в Якутске</div><h3>Ваш уютный уголок</h3><p>Выберите подходящий вариант размещения и уточните доступность на нужные даты. Администратор поможет с деталями проживания и ответит на вопросы.</p><div class="room-points"><span>Разные категории номеров</span><span>Wi-Fi</span><span>Комфортное размещение</span></div><a class="btn btn-gold" href="#booking">Запросить номер</a></div></div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="container"><div class="section-heading reveal"><div class="eyebrow">Атмосфера комплекса</div><h2>Посмотрите <em>поближе</em></h2><p>Несколько штрихов к вашему будущему отдыху.</p></div>
+        <div class="gallery-grid reveal">
+          <a href="https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?auto=format&fit=crop&w=1600&q=90" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?auto=format&fit=crop&w=900&q=80" alt="Бассейн"><span>Водная зона</span></a>
+          <a href="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=90" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=700&q=80" alt="Гостиница"><span>Гостиница</span></a>
+          <a href="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=90" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80" alt="Спа-зона"><span>Зона отдыха</span></a>
+          <a href="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=90" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=700&q=80" alt="Номер"><span>Номера</span></a>
+          <a href="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1200&q=90" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=700&q=80" alt="Бассейн и отдых"><span>Время вместе</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking" id="booking">
+      <div class="container"><div class="booking-box reveal">
+        <div><div class="eyebrow">Планируете отдых?</div><h2>Давайте подберём<br>удобное время</h2><p>Оставьте заявку — сообщение откроется в WhatsApp. Администратор сможет уточнить свободные даты, стоимость и детали посещения.</p><p class="fineprint">Отправка заявки не означает автоматическое подтверждение бронирования.</p></div>
+        <form class="booking-form" id="bookingForm">
+          <div class="field"><label for="kind">Что вас интересует</label><select id="kind" required><option value="Гостиница">Гостиница</option><option value="Большая сауна">Большая сауна</option><option value="Сауна Бора-Бора">Сауна Бора-Бора</option><option value="Малая сауна">Малая сауна</option><option value="Другой вопрос">Другой вопрос</option></select></div>
+          <div class="field"><label for="people">Количество гостей</label><select id="people"><option>1 человек</option><option>2 человека</option><option>3–5 человек</option><option>6–10 человек</option><option>Более 10 человек</option></select></div>
+          <div class="field"><label for="date">Желаемая дата</label><input id="date" type="date"></div>
+          <div class="field"><label for="time">Желаемое время</label><input id="time" type="time"></div>
+          <div class="field"><label for="name">Ваше имя</label><input id="name" type="text" placeholder="Как к вам обращаться" required></div>
+          <div class="field"><label for="phone">Телефон для связи</label><input id="phone" type="tel" placeholder="+7 ___ ___-__-__" required></div>
+          <div class="field full"><label for="comment">Комментарий</label><textarea id="comment" rows="2" placeholder="Дополнительные пожелания (необязательно)"></textarea></div>
+          <button class="btn btn-gold" type="submit">Отправить заявку в WhatsApp</button>
+        </form>
+      </div></div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="container contact-grid">
+        <div class="reveal"><div class="eyebrow">Будем рады вас видеть</div><h2 class="section-heading" style="text-align:left;margin:20px 0 0"><span style="font:500 clamp(38px,5vw,58px)/1.12 var(--serif)">Найдите дорогу<br>к <em>отдыху</em></span></h2><div class="contact-details">
+          <div class="contact-item"><small>Адрес</small><strong>Якутск, ул. Космонавтов, 22</strong></div>
+          <div class="contact-item"><small>Телефон</small><a href="tel:+79142717283">+7 (914) 271-72-83</a></div>
+          <div class="contact-item"><small>Бронирование</small><a href="https://wa.me/79142717283" target="_blank" rel="noreferrer">Написать в WhatsApp ↗</a></div>
+          <div class="contact-item"><small>Расположение</small><a href="https://yandex.ru/maps/?text=Якутск%20улица%20Космонавтов%2022" target="_blank" rel="noreferrer">Построить маршрут ↗</a></div>
+        </div><a class="btn btn-gold" href="tel:+79142717283">Позвонить нам</a></div>
+        <a class="map-card reveal" href="https://yandex.ru/maps/?text=Якутск%20улица%20Космонавтов%2022" target="_blank" rel="noreferrer"><div><div class="map-pin">⌖</div><h3>Золотой ковш</h3><p>Якутск · улица Космонавтов, 22<br>Открыть карту и маршрут ↗</p></div></a>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container footer-row"><div><div class="footer-brand">ЗОЛОТОЙ КОВШ</div><div>Гостиничный комплекс · Якутск</div></div><div class="footer-note">Демонстрационная версия сайта. Фотографии используются для визуальной концепции и должны быть заменены на реальные фотографии комплекса перед публикацией.</div><div>© <span id="year"></span> Золотой ковш</div></div></footer>
+  <script>
+    const toggle=document.querySelector('.menu-toggle'), nav=document.querySelector('.nav-links');
+    toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'×':'☰'});
+    nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.textContent='☰'}));
+    document.querySelectorAll('[data-service]').forEach(a=>a.addEventListener('click',()=>{document.getElementById('kind').value=a.dataset.service}));
+    document.getElementById('bookingForm').addEventListener('submit',e=>{e.preventDefault();const v=id=>document.getElementById(id).value.trim();const msg=['Здравствуйте! Хочу уточнить бронирование в комплексе «Золотой ковш».','Услуга: '+v('kind'),'Количество гостей: '+v('people'),'Дата: '+(v('date')||'не указана'),'Время: '+(v('time')||'не указано'),'Имя: '+v('name'),'Телефон: '+v('phone'),'Комментарий: '+(v('comment')||'нет')].join('\n');window.open('https://wa.me/79142717283?text='+encodeURIComponent(msg),'_blank','noopener')});
+    document.getElementById('year').textContent=new Date().getFullYear();
+    const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});
+    document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+  </script>
+</body>
+</html>
