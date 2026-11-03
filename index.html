@@ -130,6 +130,9 @@
     </section>
   </main>
   <footer><div class="container footer-row"><div><div class="footer-brand">ЗОЛОТОЙ КОВШ</div><div>Гостиничный комплекс · Якутск</div></div><div class="footer-note">Фотографии и сведения обновляются администрацией комплекса. <a href="admin.html" style="color:#e5c58c">Вход для администратора</a></div><div>© <span id="year"></span> Золотой ковш</div></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.4"></script>
+  <script src="config.js"></script>
+  <script src="assets/site.js"></script>
   <script>
     const toggle=document.querySelector('.menu-toggle'), nav=document.querySelector('.nav-links');
     toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'×':'☰'});
