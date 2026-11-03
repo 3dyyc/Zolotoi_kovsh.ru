@@ -17,6 +17,7 @@
 
   async function submitBooking(event) {
     event.preventDefault();
+    event.stopImmediatePropagation();
     const value = id => document.getElementById(id).value.trim();
     const payload = {
       service:value("kind"), guest_count:value("people"), desired_date:value("date") || null,
